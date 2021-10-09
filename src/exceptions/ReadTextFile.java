@@ -6,16 +6,16 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class ReadTextFile {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
 
         FileReader fr = null;
         BufferedReader br = null;
 
-        try {
+//        try {
             fr = new FileReader("C:\\Users\\PeopleNTech NY Class\\Desktop\\test.txt");
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
+//        } catch (FileNotFoundException e) {
+//            e.printStackTrace();
+//        }
         try {
             br = new BufferedReader(fr);
             String str = " ";

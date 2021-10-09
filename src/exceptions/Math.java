@@ -10,6 +10,7 @@ public class Math {
             exception.printStackTrace();
             System.out.println("your code has issue");
         }
+        //System.out.println("line 2: "+a/0);
         System.out.println("line 3");
 
 
