@@ -1,0 +1,28 @@
+Object Orineted Programming concepts:
+1- Inheritance 
+2- Polymorphism
+3- Encapsulation: data hiding
+4- Abstraction: implementation hiding 
+
+implementation: whenever you fill up method body or class body
+
+overloading is happening during the compile time
+overriding is happening during the run time
+final method cannot be overriden 
+
+interface is a road map to a concrete class
+
+interface is a contrcat between classes 
+
+a concrete class is a full fledge class where all method are impelemeted 
+
+in interface all methods are unimeplemented, they are all abstract methods
+
+class can implement multiple interfaces 
+
+we cannot create an object of an interface 
+
+abstract class
+
+debug
+

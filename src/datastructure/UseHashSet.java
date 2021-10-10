@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class UseHashSet {s
+public class UseHashSet {
     public static void main(String[] args) {
         Set<Integer> hs = new HashSet<>();
         hs.add(7);

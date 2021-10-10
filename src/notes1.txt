@@ -1,0 +1,12 @@
+Java is all about classes and objects
+
+class is a blueprint 
+
+object inherit all class properties (methods/variables)
+
+java is strongly type language
+
+static method can only use static variables
+
+non static method can use all type of variables
+
