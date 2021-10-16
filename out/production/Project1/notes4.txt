@@ -1,0 +1,29 @@
+quiz available on hangouts room
+
+data structure 
+
+array
+arrayList
+
+array length is predefined while arraylist is growing dynamically
+arrayList can take more then one datatype 
+
+linkedList:
+	singly linked
+	doubly linked
+
+hashSet
+
+hashMap
+
+stack 
+
+queue
+
+tree
+
+swapping
+
+next week: sorting algorithm
+
+

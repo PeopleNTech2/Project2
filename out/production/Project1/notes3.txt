@@ -1,0 +1,18 @@
+nested class
+
+singleton
+
+super keyword
+
+exceptions
+
+what is final, finaly and finalize keywords?
+finally keyword
+
+intall:
+mySQL (sql db)
+mongoDB (non sql db)
+
+w3school.com
+
+

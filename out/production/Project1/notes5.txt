@@ -1,0 +1,24 @@
+data structure 
+
+linear data structure 
+	array (done)
+	arrayList (done)
+	linkedList (done)
+	hashSet (done)
+
+	stack 
+
+	queue
+
+non-linear structure
+	graph
+
+	tree
+
+hashMap
+
+swapping
+
+
+
+
