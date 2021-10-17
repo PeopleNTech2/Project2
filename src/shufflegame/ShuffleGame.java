@@ -18,17 +18,20 @@ public class ShuffleGame {
         }
         return ar;
     }
+
     //player guess
     public int playerGuess(){
-        int guess = 0;
-        while (guess != 1 || guess != 2 || guess != 3) {
+        int index;
+        char guess = 0;
+        while (guess != '1' || guess != '2' || guess != '3') {
             System.out.println("pick 1, 2 or 3!!!");
-            guess = sc.nextInt();
-            if(guess == 1 || guess == 2 || guess == 3){
+            guess = sc.next().charAt(0);
+            if(guess == '1' || guess == '2' || guess == '3'){
                 break;
             }
         }
-        return guess-1;
+        index = Integer.parseInt(String.valueOf(guess)) - 1;
+        return index;
     }
 
     //check guess
@@ -37,6 +40,31 @@ public class ShuffleGame {
             System.out.println("good guess!");
         }else {
             System.out.println("sorry!!! wrong guess");
+        }
+    }
+
+    //starting game
+    int[] starting_array = {1, 0, 1};
+
+    //play the game function
+    public void play(){
+        char answer = 0;
+        while (answer != 'y' || answer != 'n') {
+            System.out.println("y/n: ");
+            answer = sc.next().charAt(0);
+            if(answer == 'y' || answer == 'n'){
+                break;
+            }
+        }
+        if(answer == 'y'){
+            //play the game
+            checkGuess(shuffleGame(starting_array), playerGuess());
+            System.out.println();
+            System.out.print("do you want to try again? ");
+            play();
+        }else {//answer is n
+            //print see you next time
+            System.out.println("see you next time!!!");
         }
     }
 }
